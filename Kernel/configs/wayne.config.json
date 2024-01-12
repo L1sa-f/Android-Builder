@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Mi6X",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "oplus",
+      "repo": "https://github.com/L1sa-f/kernel5.10",
+      "branch": "android12-5.10",
+      "device": "oplus",
+      "defconfig": "gkicustom_defconfig"
     },
     "toolchains": [
       {
@@ -59,7 +59,7 @@
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
+    "enableKernelSU": false,
     "enableLXC": false
   }
 ]
